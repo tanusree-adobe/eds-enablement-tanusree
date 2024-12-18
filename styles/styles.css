@@ -18,7 +18,6 @@
   --text-color: magenta; /* Day-1 */
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --empty-section-color: #D3D3D3; /* Day-2 */
 
   /* fonts */
   --body-font-family: roboto, roboto-fallback, sans-serif;
@@ -257,14 +256,15 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-.franklin-banner {
-  background-color: var(--link-hover-color); /* Day-2 */
-}
+main .lightgray {
+  background-color: lightgray; /* Day-2 */
 
-.empty-section {
-  background-color: var(--empty-section-color); /* Day-2 */
-  
   p {
     opacity: 0; /* Day-2 */
   }
+}
+
+/* custom block*/
+.franklin-banner {
+  background-color: var(--link-hover-color); /* Day-2 */
 }
