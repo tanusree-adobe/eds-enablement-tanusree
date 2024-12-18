@@ -36,6 +36,7 @@
       min-height: calc(100vh - var(--nav-height));
       display: flex;
       align-items: center;
+      justify-content: center; /* Day-2 */
     }
 
     main.error .error-number {
@@ -54,11 +55,12 @@
   <main class="error">
     <div class="section">
       <svg viewBox="1 0 38 18" class="error-number">
-        <text x="0" y="17">404</text>
+        <text x="2" y="17">404</text> <!--Day-2-->
       </svg>
-      <h2 class="error-message">Page Not Found</h2>
+      <h2 class="error-message">Ops....</h2><!--Day-2-->
+      <h3 class="error-message">Page Not Found</h3><!--Day-2-->
       <p class="button-container">
-        <a href="/" class="button secondary error-button-home">Go home</a>
+        <a href="/" class="button secondary error-button-home">Go home</a><br>
       </p>
     </div>
   </main>
